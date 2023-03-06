@@ -112,7 +112,6 @@ article > h2 {
     color: #063d1e;
     font-family: 'android', cursive;
     margin: 20px 0px 20px 30px;
-    padding-left: 7px;
 }
 
 p > a, strong {
@@ -127,6 +126,11 @@ article > p {
     text-align: justify;
     line-height: 1.5em;
     font-size: 1.03em;    
+}
+
+article #imgCentro {
+    margin: 0px auto;
+
 }
 
 aside > ul {
@@ -170,6 +174,7 @@ footer {
 #imgCentro {
     display: flex;
     justify-content: center;
+    max-width: 350px;
 
 }
 
