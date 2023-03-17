@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+:root {
+    --color1: #36151E;
+    --color2: #593F62;
+    --color3: #7B6D8D;
+    --color4: #8499B1;
+    --color5: #A5C4D4;
+
+}
+
+body, html {
+    background-color: var(--color2);
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#seclogin {
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+} 
+
+div#img {
+    background-color: var(--color5);
+    padding: 5px 5px 0px 5px;
+    height: 200px;
+}
+
+div#img > img.imgform {
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
