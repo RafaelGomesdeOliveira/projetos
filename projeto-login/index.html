@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/midia.css">
 
@@ -16,7 +20,7 @@
     <main>
         <section id="seclogin">
             <div class="login" id="img">
-                <h1 id="h1-img">Cadastre-se</h1>
+                <h1 id="h1-img"><a href="#">Cadastre-se</a></h1>
 
 
 
@@ -32,6 +36,30 @@
             <div class="login" id="cadastro">
                 <h1>Login.</h1>
 
+                <p>Seja bem-vindo(a), faça o login para aceesar a sua conta</p>
+
+                <form action="cadastrar.php" method="post" autocomplete="on">
+
+                    <div class="campo c1">
+                        <label for="iemail">E-mail:</label>
+                        <input type="email" name="email" id="iemail" placeholder="Seu email" max="40">
+
+                    </div>
+
+                    <div class="campo c2">
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" min="8" max="25">
+
+                    </div>
+                    <a href="#" id="esqueci-senha">
+                        Esqueci a senha
+                    </a>
+
+                    <input type="submit" value="Entrar" id="entrar">
+
+
+
+                </form>
             </div>
         </section>
 

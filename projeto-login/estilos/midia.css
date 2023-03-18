@@ -15,12 +15,18 @@
     #h1-img::after {
         content: '';
         display: block;
-        width: 5rem;
-        height: 0.4rem;
+        width: 6rem;
+        height: 0.35rem;
         background-color: var(--color2);
         border-radius: 10px;
     
     }   
+
+    #h1-img {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+    }
 
     img#cll {
         display: none;
@@ -61,18 +67,35 @@
     section#seclogin {
         width: 982px;
         display: flex;
+        flex-direction: row-reverse;
     }
 
     section#seclogin > div#img {
-        width: 50%;
+        width: 45%;
         height: 100%;
         display: flex;
         justify-content: center;
     }
 
     section#seclogin > div#cadastro {
-        width: 50%;
+        width: 55%;
 
+    }
+
+    #h1-img::after {
+        content: '';
+        display: block;
+        width: 6rem;
+        height: 0.35rem;
+        background-color: var(--color2);
+        border-radius: 10px;
+    
+    }   
+
+    #h1-img {
+        position: absolute;
+        left: 550px;
+        top: 15px;
     }
 
     img#cll {
