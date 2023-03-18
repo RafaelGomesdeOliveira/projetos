@@ -2,7 +2,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
-    body, html {
+    body,
+    html {
         background-image: linear-gradient(to bottom, var(--color2), var(--color3));
 
     }
@@ -10,6 +11,8 @@
     section#seclogin {
         width: 90vw;
         display: flex;
+        height: 290px;
+
     }
 
     #h1-img::after {
@@ -19,8 +22,8 @@
         height: 0.35rem;
         background-color: var(--color2);
         border-radius: 10px;
-    
-    }   
+
+    }
 
     #h1-img {
         position: absolute;
@@ -44,40 +47,43 @@
         display: none;
 
     }
-    
-    section#seclogin > div#img {
+
+    section#seclogin>div#img {
         width: 40%;
         height: 100%;
         display: flex;
         justify-content: center;
     }
 
-    section#seclogin > div#cadastro {
+    section#seclogin>div#cadastro {
         width: 60%;
 
     }
 
 }
 
-@media screen  and (min-width:992px){
-    body, html {
+@media screen and (min-width:992px) {
+
+    body,
+    html {
         background-image: linear-gradient(to bottom, var(--color2), var(--color3));
     }
 
     section#seclogin {
         width: 982px;
+        height: 400px;
         display: flex;
         flex-direction: row-reverse;
     }
 
-    section#seclogin > div#img {
+    section#seclogin>div#img {
         width: 45%;
         height: 100%;
         display: flex;
         justify-content: center;
     }
 
-    section#seclogin > div#cadastro {
+    section#seclogin>div#cadastro {
         width: 55%;
 
     }
@@ -89,13 +95,31 @@
         height: 0.35rem;
         background-color: var(--color2);
         border-radius: 10px;
-    
-    }   
+
+    }
+
+    #cadastro>h1 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 1.8em;
+    }
+
+    #cadastro p {
+        margin-bottom: 30px;
+        font-size: 1.2em;
+    }
+
+    div.c2 {
+        margin-bottom: 20px;
+        letter-spacing: 0.2px;
+
+    }
 
     #h1-img {
         position: absolute;
         left: 550px;
         top: 15px;
+        font-size: 1.8em;
     }
 
     img#cll {
