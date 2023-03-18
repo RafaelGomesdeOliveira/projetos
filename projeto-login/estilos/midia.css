@@ -2,8 +2,14 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
+    body, html {
+        background-image: linear-gradient(to bottom, var(--color2), var(--color3));
+
+    }
+
     section#seclogin {
         width: 90vw;
+        display: flex;
     }
 
     img#cll {
@@ -13,10 +19,69 @@
 
     img#tablet {
         display: block;
-        height: 200px;
+        width: 100%;
         margin: auto;
     }
+
+
+    img#pc {
+        display: none;
+
+    }
     
+    section#seclogin > div#img {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    section#seclogin > div#cadastro {
+        width: 60%;
+
+    }
 
 }
 
+@media screen  and (min-width:992px){
+    body, html {
+        background-image: linear-gradient(to bottom, var(--color2), var(--color3));
+
+    }
+    
+    section#seclogin {
+        width: 982px;
+        display: flex;
+    }
+
+    section#seclogin > div#img {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    section#seclogin > div#cadastro {
+        width: 50%;
+
+    }
+
+    img#cll {
+        display: none;
+
+    }
+
+    img#tablet {
+        display: none;
+
+    }
+
+
+    img#pc {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+
+}
