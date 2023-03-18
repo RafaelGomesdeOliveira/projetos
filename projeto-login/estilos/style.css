@@ -128,7 +128,7 @@ section#seclogin > div#cadastro {
 }
 
 #img > h1 > a:hover {
-    color: var(--color2);
+    color: var(--color1);
     text-decoration: underline;
 
 }
