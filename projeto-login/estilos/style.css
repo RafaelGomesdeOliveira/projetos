@@ -174,7 +174,7 @@ input#entrar:hover {
 }
 
 a#esqueci-senha {
-    
+
     display: block;
     margin: 5px auto;
     text-decoration: none;
@@ -184,7 +184,7 @@ a#esqueci-senha {
     height: 32px;
     color: white;
     padding-top: 6px;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 1em;
 }
 
@@ -196,10 +196,11 @@ input#entrar {
     height: 32px;
     background-color: var(--color5);
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     color: white;
     padding-bottom: 3px;
     font-size: 1em;
+    cursor: pointer;
 
 
 }
