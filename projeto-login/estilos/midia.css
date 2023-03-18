@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    section#seclogin {
+        width: 90vw;
+    }
+
+    img#cll {
+        display: none;
+
+    }
+
+    img#tablet {
+        display: block;
+        height: 200px;
+        margin: auto;
+    }
+    
+
+}
+
