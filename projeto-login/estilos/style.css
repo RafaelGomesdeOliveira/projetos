@@ -43,7 +43,8 @@ main {
 }
 
 section#seclogin {
-    width: 260px;
+    max-width: 600px;
+    min-width: 210px;
     height: 500px;
     margin: auto;
     border-radius: 10px;
@@ -60,7 +61,6 @@ section#seclogin {
 div#img {
     background-image: url('../imagens/');
     background-color: var(--color5);
-    padding: 5px 5px 0px 5px;
     height: 200px;
 }
 
