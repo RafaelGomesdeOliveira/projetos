@@ -15,7 +15,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 :root {
@@ -61,10 +61,28 @@ section#seclogin {
 } 
 
 div#img {
-
+    display: flex;
     background-color: var(--color5);
     height: 200px;
 }
+
+#h1-img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+
+#h1-img::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.4rem;
+    background-color: var(--color2);
+    border-radius: 10px;
+
+}   
+
 
 #img > div {
     display: none;
@@ -72,9 +90,10 @@ div#img {
 }
 
 img#cll {
+    
     display: block;
-    width: 210px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: auto;
 }
 

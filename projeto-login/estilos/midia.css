@@ -12,6 +12,16 @@
         display: flex;
     }
 
+    #h1-img::after {
+        content: '';
+        display: block;
+        width: 5rem;
+        height: 0.4rem;
+        background-color: var(--color2);
+        border-radius: 10px;
+    
+    }   
+
     img#cll {
         display: none;
 
@@ -46,9 +56,8 @@
 @media screen  and (min-width:992px){
     body, html {
         background-image: linear-gradient(to bottom, var(--color2), var(--color3));
-
     }
-    
+
     section#seclogin {
         width: 982px;
         display: flex;
