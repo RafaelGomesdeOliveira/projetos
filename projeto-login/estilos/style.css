@@ -114,7 +114,7 @@ img#pc {
 section#seclogin > div#cadastro {
     padding: 10px;
     font-family: var(--font-medium);
-
+    font-weight: normal;
 }
 
 #cadastro > h1 {
@@ -177,7 +177,7 @@ input#entrar:hover {
 }
 
 a#esqueci-senha {
-
+    font-weight: bold;
     display: block;
     margin: 5px auto;
     text-decoration: none;
@@ -205,6 +205,6 @@ input#entrar {
     padding-top: 2px;
     font-size: 1em;
     cursor: pointer;
-
+    font-weight: bold;
 
 }
