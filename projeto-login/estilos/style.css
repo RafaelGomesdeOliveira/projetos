@@ -166,10 +166,12 @@ div.c2 {
 
 }
 
+
 @supports not (-webkit-touch-callout: none) {
     input {
         border-radius: 0px;
     }
+    
 }
 
 
