@@ -1,5 +1,5 @@
 # projetos
- Projetos criados ou que estão sendo criados
+ Projetos | HTML & CSS
 
 <a href="https://rafaelgomesdeoliveira.github.io/projetos/projeto-android/" target="_blank" >Projeto Android</a>
 
